@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "LA+5iiYVBEm9xUP6UezDFoiPBNy75lycclmsnSYrwBY=",
+  "Source": "Sunrise",
+  "BasePath": "_content/Sunrise",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Sunrise\\wwwroot",
+      "Source": "Sunrise",
+      "ContentRoot": "D:\\iticourse\\Sunrise\\Sunrise\\wwwroot\\",
+      "BasePath": "_content/Sunrise",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\iticourse\\Sunrise\\Sunrise\\wwwroot\\images\\categories\\10e4f2ed-00d0-41e6-bffc-fe4b1653868c.jpeg",
+      "SourceId": "Sunrise",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\iticourse\\Sunrise\\Sunrise\\wwwroot\\",
+      "BasePath": "_content/Sunrise",
+      "RelativePath": "images/categories/10e4f2ed-00d0-41e6-bffc-fe4b1653868c.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\categories\\10e4f2ed-00d0-41e6-bffc-fe4b1653868c.jpeg"
+    },
+    {
+      "Identity": "D:\\iticourse\\Sunrise\\Sunrise\\wwwroot\\images\\noimg.jpeg",
+      "SourceId": "Sunrise",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\iticourse\\Sunrise\\Sunrise\\wwwroot\\",
+      "BasePath": "_content/Sunrise",
+      "RelativePath": "images/noimg.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\noimg.jpeg"
+    },
+    {
+      "Identity": "D:\\iticourse\\Sunrise\\Sunrise\\wwwroot\\images\\products\\f93209b1-39a2-4e6c-8687-525f159427c0.jpeg",
+      "SourceId": "Sunrise",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\iticourse\\Sunrise\\Sunrise\\wwwroot\\",
+      "BasePath": "_content/Sunrise",
+      "RelativePath": "images/products/f93209b1-39a2-4e6c-8687-525f159427c0.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\f93209b1-39a2-4e6c-8687-525f159427c0.jpeg"
+    }
+  ]
+}

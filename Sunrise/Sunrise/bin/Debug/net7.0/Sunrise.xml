@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sunrise</name>
+    </assembly>
+    <members>
+        <member name="M:Sunrise.Controllers.CategoriesController.GetCategories(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Get all the categories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sunrise.Controllers.CategoriesController.GetCategory(System.Int32)">
+            <summary>
+            get the category name , description and products id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sunrise.Controllers.ProductsController.GetProducts(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Gets all products
+            </summary>
+            <returns>List of products</returns>
+        </member>
+        <member name="M:Sunrise.Controllers.ProductsController.GetProduct(System.Int32)">
+            <summary>
+            gets the products name , description , price and category id 
+            </summary>
+            <param name="id"></param>
+            <returns>a JASON object for the product</returns>
+        </member>
+        <member name="T:Sunrise.Migrations.CreatingDb">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.CreatingDb.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.CreatingDb.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.CreatingDb.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Sunrise.Migrations.CreatingDataBase">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.CreatingDataBase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.CreatingDataBase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.CreatingDataBase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Sunrise.Migrations.AddingCategoriesAndProductsTables">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.AddingCategoriesAndProductsTables.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.AddingCategoriesAndProductsTables.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.AddingCategoriesAndProductsTables.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Sunrise.Migrations.addCol">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.addCol.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.addCol.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.addCol.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Sunrise.Migrations.updatingColumns">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.updatingColumns.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.updatingColumns.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.updatingColumns.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Sunrise.Migrations.AddingImagePathColumnToProductsTable">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.AddingImagePathColumnToProductsTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.AddingImagePathColumnToProductsTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.AddingImagePathColumnToProductsTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Sunrise.Migrations.addingImagePathColmnToCategoryTable">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.addingImagePathColmnToCategoryTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.addingImagePathColmnToCategoryTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.addingImagePathColmnToCategoryTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Sunrise.Migrations.addingCustomersTable">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.addingCustomersTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.addingCustomersTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Sunrise.Migrations.addingCustomersTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:Sunrise.Models.Product.Id">
+            <summary>
+            a unique auto-generated identifier
+            </summary>
+        </member>
+    </members>
+</doc>
